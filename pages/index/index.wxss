@@ -1,0 +1,56 @@
+/**index.wxss**/
+
+
+.index-container {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height: 100%
+}
+
+.index-item-image{
+  width:220rpx;
+  height:220rpx;
+}
+
+.index-list{
+  margin:20rpx;
+  display: flex;
+  flex-direction: row;
+}
+.index-item-container{
+  margin-left:20rpx;
+  display:flex;
+  width:470rpx;
+  flex-direction: column;
+}
+.index-item-title{
+  font-size:40rpx;
+  color:#333;
+}
+
+.index-item-desc{
+  margin-top:10rpx;
+  font-size:36rpx;
+  color:#666;
+}
+
+.index-item-content{
+  margin-top:10rpx;
+  font-size:28rpx;
+  color:#999;
+}
+
+.index-item-footer{
+  margin-top: 14rpx;
+  display: flex;
+  flex-direction: row;
+}
+.index-item-detail{
+  height:60rpx;
+  width: 60rpx;
+  margin-right:20rpx;
+  margin-left:0;
+  padding: 0;
+}
+

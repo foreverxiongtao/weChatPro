@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class='index-container'>
+  <swiper indicator-dots="true" autoplay="true" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" style='width:100%' bindtap='showBigImage' data-index='{{index}}' />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="index-list">
+    <image class='index-item-image' src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+    <view class='index-item-container'>
+      <text class='index-item-title'>标题</text>
+      <text class='index-item-desc'>描述</text>
+      <text class='index-item-content'>内容体，内容体，内容体，内容体，内容体，内容体，内容体，内容体</text>
+      <view class='index-item-footer'>
+      <image class='index-item-detail' src='/images/detail_nor.png'></image>
+      <button class='index-item-button'>联系客服</button>
+      </view>
+    </view>
+  </view>
+</view>
