@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/header/headersetting"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -22,7 +23,7 @@
         "iconPath": "/images/me_nor.png",
         "selectedIconPath": "images/me_pre.png",
         "pagePath": "pages/me/me",
-        "text": "我"
+        "text": "我的"
       }
     ]
   }

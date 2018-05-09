@@ -1,1 +1,25 @@
 /* pages/me/me.wxss */
+
+.me-top-container{
+  display: flex;
+  flex-direction: column
+}
+
+.me-head-container{
+  display: flex;
+  flex-direction: row;
+  border: 1rpx solid gainsboro;
+  margin: 10rpx;
+  height:120rpx;
+  align-items: center
+}
+
+.me-head-container image{
+  width:100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.me-head-container text{
+  margin-left: 20rpx;
+  font-size: 30rpx;
+}
