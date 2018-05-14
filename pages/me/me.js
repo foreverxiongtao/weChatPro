@@ -63,4 +63,10 @@ Page({
   onShareAppMessage: function () {
   
   }
+  ,
+  settingHeader:function(){
+    wx.navigateTo({
+      url: '/pages/header/headersetting',
+    })
+  }
 })

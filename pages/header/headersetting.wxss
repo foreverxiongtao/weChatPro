@@ -1,1 +1,10 @@
 /* pages/header/headersetting.wxss */
+
+.headersetting-top-container{
+  height: 200rpx;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

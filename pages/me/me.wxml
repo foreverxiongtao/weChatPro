@@ -1,7 +1,52 @@
 <!--pages/me/me.wxml-->
 <view class='me-top-container'>
-<view class='me-head-container' bindtap='settingHeader'>
+<view class='me-item-container head-container' bindtap='settingHeader'>
   <image src='/images/me_pre.png'></image>
   <text>昵称</text>
+  <image class='me-arror' src='/images/ic_arror.png'></image>
 </view>
+ <view class='me-item-container'>
+<image src='/images/me_pre.png'></image>
+  <text>消息中心</text>
+  <image class='me-arror' src='/images/ic_arror.png'></image>
+</view> 
+
+ <view class='me-item-container'>
+<image src='/images/me_pre.png'></image>
+  <text>收藏夹</text>
+  <image class='me-arror' src='/images/ic_arror.png'></image>
+</view> 
+
+ <view class='me-item-container'>
+<image src='/images/me_pre.png'></image>
+  <text>我喜欢的</text>
+  <image class='me-arror' src='/images/ic_arror.png'></image>
+</view> 
+
+ <view class='me-item-container'>
+<image src='/images/me_pre.png'></image>
+  <text>阅读过的文章</text>
+  <image class='me-arror' src='/images/ic_arror.png'></image>
+</view> 
+
+ <view class='me-item-container'>
+<image src='/images/me_pre.png'></image>
+  <text>点赞过的文章</text>
+  <image class='me-arror' src='/images/ic_arror.png'></image>
+</view> 
+ <view class='me-item-container me-foot-container'>
+<image src='/images/me_pre.png'></image>
+  <text>夜间模式</text>
+  <image class='me-arror' src='/images/ic_arror.png'></image>
+</view> 
+ <view class='me-item-container'>
+<image src='/images/me_pre.png'></image>
+  <text>意见反馈</text>
+  <image class='me-arror' src='/images/ic_arror.png'></image>
+</view>
+ <view class='me-item-container'>
+<image src='/images/me_pre.png'></image>
+  <text>设置</text>
+  <image class='me-arror' src='/images/ic_arror.png'></image>
+</view> 
 </view>

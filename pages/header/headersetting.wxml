@@ -1,2 +1,7 @@
 <!--pages/header/headersetting.wxml-->
-<text>pages/header/headersetting.wxml</text>
+
+<view class='headersetting-top-container' >
+<text>header1.wxml</text>
+<text>eader2.wxml</text>
+
+</view>
