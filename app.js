@@ -1,4 +1,5 @@
 //app.js
+
 App({
   onLaunch: function () {
     // // 展示本地存储能力
@@ -7,9 +8,28 @@ App({
     // wx.setStorageSync('logs', logs)
 
     // 登录
+    var app=this;
     wx.login({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        console.log(res.code);
+
+        if (res.code) {
+          //发起网络请求
+          wx.request({
+            url:app.globalData["apiHost"]+"/login",
+            data: {
+              code: res.code
+            }
+            ,
+            success:function(res){
+              console.log(res.data);
+            }
+          })
+        } else {
+          console.log('登录失败！' + res.errMsg)
+        }
+
       }
     })
     // 获取用户信息
@@ -35,6 +55,8 @@ App({
   },
   globalData: {
     userInfo: null,
-    apiHost:"http://114.115.218.158:8090"
+    // apiHost:"http://114.115.218.158:8090"
+        apiHost:"http://127.0.0.1:8080/api",
+    tokenStr:"token"
   }
 })
